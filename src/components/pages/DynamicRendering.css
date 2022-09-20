@@ -1,0 +1,26 @@
+.DynamicRendering {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.DynamicRenderingMain {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.DynamicRenderingMain h2:first-child {
+  padding: 20px;
+}
+.submitBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
